@@ -1,0 +1,10 @@
+{
+  "SqlConnection": "",
+  "RootDirectory": "",
+  "MiniIoEndPoint": "",
+  "MiniIoAcessKey": "",
+  "MiniIoSecretKey": "",
+  "MiniIoBucket": "",
+  "UpdateSqlQuery": "",
+  "RenameFile": true
+}

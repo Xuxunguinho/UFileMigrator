@@ -1,0 +1,18 @@
+/*
+
+    FileName - Nome do arquivo encontrado no directorio
+    FileFullName - Endereço completo do arquivo ( inclui o nome do arquivo )
+    UploadFileName - Nome do arquivo na cloud
+    CurrentFolder  - Nome da pasta em que o arquivo está
+    CurrentFullDir  - endereço completo do directorio (não inclui o nome do arquivo)
+    Link  - link do aquivo na cloud
+
+    As variabeis têm de estar no seguinte formato:{{FileName}}
+   
+*/
+
+
+UPDATE [dbo].[Ficheiros]
+       SET      
+       [Caminho] = '{{UploadFileName}}'
+       WHERE [InteracaoId] = '{{CurrentFolder}}' and [Nome] = '{{FileName}}'
